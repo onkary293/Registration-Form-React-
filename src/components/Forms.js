@@ -16,10 +16,10 @@ function Forms ()
     }
     return (
       <div className="Formcss">
-        <h1>Registration</h1>
+        <h1>Login</h1>
         <div className="form-style">
           <form action="" className="formcss" onSubmit={clickHandler}>
-            <fieldset className="formcss">
+          
               <input
                 type="email"
                 onChange={(e) => {
@@ -30,6 +30,7 @@ function Forms ()
                 required
               />
               <input
+             
                 type="password"
                 onChange={(e) => {
                   setPassword(e.target.value);
@@ -38,8 +39,8 @@ function Forms ()
                 placeholder="Enter Your Password"
                 required
               />
-              <button type="submit">Submit</button>
-            </fieldset>
+              <button type="submit">Sign In</button>
+          
           </form>
         </div>
         <div>

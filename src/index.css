@@ -28,7 +28,8 @@ code {
     margin: 0 auto;
     padding: 10px;
     border: 2px solid white;
-    border-radius: 10px;
+    border-radius: 20px;
+    transition: all 2s ease-in 0.2s;
 }
 
 input {
@@ -45,10 +46,18 @@ input {
 
 button {
     font-size: 20px;
-    background-color: rgba(0, 255, 255, 0.902);
+    background-color: rgb(36, 35, 35);
     border-radius: 5px;
     border: none;
     width: 20%;
+    color: white;
+    padding: 10px;
+    transition: all 2s ease-in 0.1s;
+}
+
+button:hover {
+    background-color: rgb(138, 137, 134);
+    cursor: pointer;
 }
 
 p {
@@ -64,4 +73,9 @@ p {
 .List {
     display: flex;
     justify-content: center;
+}
+
+.form-style:hover {
+    border: 2px solid rgb(138, 137, 134);
+    border-radius: 20px;
 }
